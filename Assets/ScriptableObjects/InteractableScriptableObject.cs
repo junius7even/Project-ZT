@@ -12,6 +12,7 @@ public class InteractableScriptableObject : ScriptableObject
     public bool canPickUp;
     public Sprite hoveredSprite;
     public Sprite normalSprite;
+    public Sprite pressedSprite;
     public float horizontalOffset;
     public float verticalOffset;
 }

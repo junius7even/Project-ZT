@@ -111,7 +111,7 @@ MonoBehaviour:
         exitHere: 1
         _position: {x: 375.5, y: -271.22}
         <Interlocutor>k__BackingField: '{[NPC]}'
-        <Content>k__BackingField: "\u65E2\u7136\u4F60\u90FD\u8DDF\u84DD\u8272\u7684\u5BF9\u8BDD\u8FC7\u4E86\uFF0C\u6211\u5C31\u7ED9\u4F60\u770B\u4E2A\u6709\u8DA3\u7684\u73A9\u610F"
+        <Content>k__BackingField: "\u65E2\u7136\u4F60\u90FD\u8DDF\u84DD\u8272\u7684\u5BF9\u8BDD\u8FC7\u4E86\uFF0C\u4F60\u5C31\u522B\u6765\u6253\u6270\u6211\u4E86"
         <SpeakInterval>k__BackingField:
           serializedVersion: 2
           m_Curve:

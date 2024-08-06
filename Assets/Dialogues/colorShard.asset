@@ -17,11 +17,12 @@ MonoBehaviour:
   - rid: 8693329506914533454
   - rid: 8693329506914533456
   - rid: 8693329506914533461
+  - rid: 8693329506914533463
   _exit:
     <ID>k__BackingField: CON-d5c6c63614b34e04a6973d25a1dec95a
     options: []
     exitHere: 0
-    _position: {x: 678.2801, y: -33.000004}
+    _position: {x: 732.5, y: -54}
   _name: 
   _description: 
   _groups: []
@@ -89,10 +90,10 @@ MonoBehaviour:
     - rid: 8693329506914533455
       type: {class: GetItemEvent, ns: ZetanStudio.Examples, asm: Assembly-CSharp}
       data:
-        <ID>k__BackingField: EVT-133afe74ed6d43b19b2b988ddbacef50
-        <OneTime>k__BackingField: 0
+        <ID>k__BackingField: 12
+        <OneTime>k__BackingField: 1
         <Item>k__BackingField:
-          ID: colorShard
+          ID: shard
           amount: 1
     - rid: 8693329506914533456
       type: {class: SentenceNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
@@ -104,7 +105,7 @@ MonoBehaviour:
           <Next>k__BackingField:
             rid: 8693329506914533461
         exitHere: 0
-        _position: {x: 337.15, y: 11.899979}
+        _position: {x: 337, y: 12}
         <Interlocutor>k__BackingField: "\u95EA\u95EA\u53D1\u5149\u7684\u77F3\u5934"
         <Content>k__BackingField: "\u8FD9\u8FD8\u5DEE\u4E0D\u591A\uFF0C\u5C0F\u5B50\u3002"
         <SpeakInterval>k__BackingField:
@@ -144,16 +145,58 @@ MonoBehaviour:
         - <Title>k__BackingField: 
           <IsMain>k__BackingField: 1
           <Next>k__BackingField:
-            rid: -2
+            rid: 8693329506914533463
         exitHere: 0
-        _position: {x: 603.5, y: 192.5}
+        _position: {x: 528.5, y: 198.5}
         events:
         - rid: 8693329506914533462
     - rid: 8693329506914533462
       type: {class: AnimationEvent, ns: J7.Extension, asm: Assembly-CSharp}
       data:
-        <ID>k__BackingField: EVT-1990526e97d54fc485704058e689a7fa
-        <OneTime>k__BackingField: 0
+        <ID>k__BackingField: essence
+        <OneTime>k__BackingField: 1
         <Anim>k__BackingField:
           objectName: Essence
-          animTrigger: dissappear
+          animTrigger: Dissappear
+    - rid: 8693329506914533463
+      type: {class: SentenceNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: CON-3e36c9dad33f47c7b94ef4080069214f
+        options:
+        - <Title>k__BackingField: Continue
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: -2
+        exitHere: 1
+        _position: {x: 660, y: 26}
+        <Interlocutor>k__BackingField: "\u95EA\u95EA\u53D1\u5149\u7684\u77F3\u5934"
+        <Content>k__BackingField: "\u62DC\u62DC\u4E86\u4F19\u8BA1\u3002\u3002\u3002"
+        <SpeakInterval>k__BackingField:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <Portrait>k__BackingField: {fileID: 0}
+        <KeepPortraitSide>k__BackingField: 0
+        <Voice>k__BackingField: {fileID: 0}
+        <VoiceOffset>k__BackingField: 0
+        events: []

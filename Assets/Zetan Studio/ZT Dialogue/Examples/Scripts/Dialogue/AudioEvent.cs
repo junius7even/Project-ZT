@@ -15,7 +15,7 @@ namespace J7.Extension
 
         protected override bool Invoke()
         {
-            AudioSource source = GameObject.FindWithTag("AudioSource").GetComponent<AudioSource>();
+            AudioSource source = GameObject.FindWithTag("AudioManager").GetComponent<AudioSource>();
 
             if (source)
             {

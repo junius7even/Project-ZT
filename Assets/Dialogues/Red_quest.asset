@@ -19,11 +19,12 @@ MonoBehaviour:
   - rid: 8693329506914533441
   - rid: 8693329506914533442
   - rid: 8693329506914533446
+  - rid: 8693329506914533466
   _exit:
     <ID>k__BackingField: CON-68ed2b0ca06f47349693b821dee72e5e
     options: []
     exitHere: 0
-    _position: {x: 470, y: -29.499992}
+    _position: {x: 651, y: 278.5}
   _name: 
   _description: 
   _groups: []
@@ -44,7 +45,7 @@ MonoBehaviour:
         exitHere: 0
         _position: {x: -248, y: -11}
         <Interlocutor>k__BackingField: '{[NPC]}'
-        <Content>k__BackingField: "\u8BA9\u6211\u770B\u770B\u4F60\u641C\u96C6\u4E86\u51E0\u4E2A\u3002\u3002"
+        <Content>k__BackingField: "\u8BA9\u6211\u770B\u770B\u4F60\u7684\u5305\u3002\u3002\u3002"
         <SpeakInterval>k__BackingField:
           serializedVersion: 2
           m_Curve:
@@ -84,9 +85,9 @@ MonoBehaviour:
         - <Title>k__BackingField: 
           <IsMain>k__BackingField: 1
           <Next>k__BackingField:
-            rid: -2
-        exitHere: 1
-        _position: {x: 470.00003, y: -137.75696}
+            rid: 8693329506914533466
+        exitHere: 0
+        _position: {x: 470, y: -262.5}
         <Dialogue>k__BackingField: {fileID: 11400000, guid: 3e9eee8bb6de44b96b4d5e14f972c816,
           type: 2}
     - rid: 8693329506914533439
@@ -103,7 +104,7 @@ MonoBehaviour:
           <Next>k__BackingField:
             rid: 8693329506914533442
         exitHere: 0
-        _position: {x: -264, y: -262.25998}
+        _position: {x: -282.51508, y: -262.5}
         <Condition>k__BackingField:
           formula: 
           conditions:
@@ -112,8 +113,8 @@ MonoBehaviour:
       type: {class: ItemCondition, ns: ZetanStudio.Examples, asm: Assembly-CSharp}
       data:
         <Item>k__BackingField:
-          ID: colorShards
-          amount: 4
+          ID: shard
+          amount: 1
     - rid: 8693329506914533441
       type: {class: SentenceNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
       data:
@@ -169,7 +170,7 @@ MonoBehaviour:
         exitHere: 1
         _position: {x: 147, y: 143}
         <Interlocutor>k__BackingField: '{[NPC]}'
-        <Content>k__BackingField: "\u545C\u545C\u545C\u4F60\u8FD8\u6CA1\u627E\u9F50\u5168\uFF0C\u8BB0\u4F4F\uFF0C\u4E00\u5171\u6709<color=purple>\u56DB\u4E2A</color>"
+        <Content>k__BackingField: "\u545C\u545C\u545C\u4F60\u8FD8\u6CA1\u627E\u5230"
         <SpeakInterval>k__BackingField:
           serializedVersion: 2
           m_Curve:
@@ -214,6 +215,7 @@ MonoBehaviour:
         events:
         - rid: 8693329506914533447
         - rid: 8693329506914533448
+        - rid: 8693329506914533467
     - rid: 8693329506914533447
       type: {class: LoseItemEvent, ns: ZetanStudio.Examples, asm: Assembly-CSharp}
       data:
@@ -221,12 +223,61 @@ MonoBehaviour:
         <OneTime>k__BackingField: 1
         <Item>k__BackingField:
           ID: colorShard
-          amount: 4
+          amount: 1
     - rid: 8693329506914533448
       type: {class: AnimationEvent, ns: J7.Extension, asm: Assembly-CSharp}
       data:
         <ID>k__BackingField: EVT-b6eee0fd17744445adc12dc121c10441
         <OneTime>k__BackingField: 1
         <Anim>k__BackingField:
-          objectName: Shards
+          objectName: Red
           animTrigger: Gradient
+    - rid: 8693329506914533466
+      type: {class: SentenceNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: CON-6ead8ac8d98a4b4da38396246a757e8b
+        options:
+        - <Title>k__BackingField: Continue
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: -2
+        exitHere: 1
+        _position: {x: 568.5, y: -107.5}
+        <Interlocutor>k__BackingField: '{[NPC]}'
+        <Content>k__BackingField: "\u54E6\u8036\u54E6\u8036\u54E6\u8036\uFF01"
+        <SpeakInterval>k__BackingField:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <Portrait>k__BackingField: {fileID: 0}
+        <KeepPortraitSide>k__BackingField: 0
+        <Voice>k__BackingField: {fileID: 0}
+        <VoiceOffset>k__BackingField: 0
+        events: []
+    - rid: 8693329506914533467
+      type: {class: AudioEvent, ns: J7.Extension, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: EVT-431b43749f8649239546e0312ffb0e04
+        <OneTime>k__BackingField: 1
+        <Clip>k__BackingField: {fileID: 8300000, guid: d921b7764e8a24d029b457cc042b78c4,
+          type: 3}
