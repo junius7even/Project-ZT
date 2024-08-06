@@ -28,7 +28,7 @@ namespace J7.Extension
             // handler.callbacks.onReachLastSentence += DialogueCb;
             
             // 求其次的方法，因为IExitableNode无法让这个直接结束对话，必须添加一个dialogue content
-            handler.StartWith("sdf", "");
+            handler.StartWith("", "");
             handler.Interlocutor.Dialogue = Dialogue;
         }
 
