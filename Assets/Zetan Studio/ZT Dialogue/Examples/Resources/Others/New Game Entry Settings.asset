@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 074d9b4057fb71f4ab1eaebc74cb5add, type: 3}
+  m_Name: New Game Entry Settings
+  m_EditorClassIdentifier: 
+  <UIRootPrefab>k__BackingField: {fileID: 3522902507686623062, guid: e3662a6ac5f7afd429b0916c0764fea8, type: 3}
+  <DefaultLanguage>k__BackingField: 1
+  <Localization>k__BackingField: {fileID: 11400000, guid: a2ca2b7796f424a4f875cb0bc0325b1e, type: 2}
+  <WindowPrefabs>k__BackingField: {fileID: 11400000, guid: 612b915be8c32b846b3dac1c7dff8f11, type: 2}

@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73402b0326e54ac4e8faf201b5be2958, type: 3}
+  m_Name: Common Translation
+  m_EditorClassIdentifier: 
+  items:
+  - <Key>k__BackingField: "\u8BBE\u7F6E"
+    values:
+    - Settings
+  - <Key>k__BackingField: "\u5B58\u6863"
+    values:
+    - Save
+  - <Key>k__BackingField: "\u8BFB\u6863"
+    values:
+    - Load
+  - <Key>k__BackingField: "\u9000\u51FA"
+    values:
+    - Quit
+  - <Key>k__BackingField: "\u79FB\u52A8: WASD\u3001\u65B9\u5411\u952E\\n\u4EA4\u4E92:
+      F\\n\u9009\u62E9\u5BF9\u8C61\uFF1A\u9F20\u6807\u6EDA\u8F6E"
+    values:
+    - "Move: WASD\u3001Arrows\\nInteract: F\\nSelect Object: Mouse Wheel"
+  - <Key>k__BackingField: "\u6A59\u5934\u53D1\u73A9\u5BB6"
+    values:
+    - Orange Hair Player
+  - <Key>k__BackingField: "\u8349"
+    values:
+    - Grass
+  - <Key>k__BackingField: "\u95E8"
+    values:
+    - Door
+  - <Key>k__BackingField: "\u963F\u84DD"
+    values:
+    - Blue
+  - <Key>k__BackingField: "\u5C0F\u7EA2"
+    values:
+    - Red
+  - <Key>k__BackingField: "\u56DB\u773C\u4ED4"
+    values:
+    - Glasses
+  - <Key>k__BackingField: "\u5C0F\u6A59"
+    values:
+    - Orange
+  - <Key>k__BackingField: "\u5C0F\u9EC4"
+    values:
+    - Yellow
+  - <Key>k__BackingField: "\u786E\u5B9A\u9000\u51FA {0} \u5417\uFF1F"
+    values:
+    - Are you sure you want to quit {0}?
+  - <Key>k__BackingField: "\u786E\u8BA4"
+    values:
+    - Confirm
+  - <Key>k__BackingField: "\u53D6\u6D88"
+    values:
+    - Cancel
+  - <Key>k__BackingField: "\u786E\u8BA4\u7EE7\u7EED\u5BF9\u8BDD\uFF1F"
+    values:
+    - Confirm to continue?
+  - <Key>k__BackingField: "\u786E\u8BA4\u6216\u53D6\u6D88\u4EE5\u5F00\u59CB\u4E0D\u540C\u7684\u5206\u652F"
+    values:
+    - Click Confirm or Cancel to start different branch
+  - <Key>k__BackingField: "\u8BBE\u7F6E\u7B49\u7EA7\uFF1Alevel [\u7B49\u7EA7]\\n\u8BBE\u7F6E\u6027\u522B\uFF1Agender
+      [0/1]\\n\u83B7\u5F97\u9053\u5177\uFF1Aget [ID] [\u6570\u91CF]\\n\u5931\u53BB\u9053\u5177\uFF1Alose
+      [ID] [\u6570\u91CF]"
+    values:
+    - "Set Level\uFF1Alevel [level]\\nSet Gender: gender [0/1]\\nGet Item\uFF1Aget
+      [ID] [count]\\nLose Item\uFF1Alose [ID] [count]"
+  - <Key>k__BackingField: "\u53D1\u9001"
+    values:
+    - Send
+  - <Key>k__BackingField: "\u7537"
+    values:
+    - Male
+  - <Key>k__BackingField: "\u5973"
+    values:
+    - Female
+  - <Key>k__BackingField: "\u8F93\u5165\u6307\u4EE4"
+    values:
+    - Enter command
+  _name: English Common

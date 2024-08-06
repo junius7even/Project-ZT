@@ -1,0 +1,734 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73402b0326e54ac4e8faf201b5be2958, type: 3}
+  m_Name: Editor Translation
+  m_EditorClassIdentifier: 
+  items:
+  - <Key>k__BackingField: "\u7FFB\u8BD1\u5305\u7F16\u8F91\u5668"
+    values:
+    - Translation Editor
+  - <Key>k__BackingField: "\u7FFB\u8BD1\u5305"
+    values:
+    - Translation
+  - <Key>k__BackingField: "\u7FFB\u8BD1\u5305\u540D\u79F0"
+    values:
+    - Translation Name
+  - <Key>k__BackingField: "\u5168\u90E8"
+    values:
+    - All
+  - <Key>k__BackingField: "\u6CA1\u6709\u53EF\u7528\u7684\u68C0\u7D22\u65B9\u6CD5"
+    values:
+    - No searching method available
+  - <Key>k__BackingField: "\u5E8F\u53F7"
+    values:
+    - NO.
+  - <Key>k__BackingField: "\u8868\u683C\u884C\u7ED3\u6784\u7684\u539F\u59CB\u5E8F\u53F7"
+    values:
+    - The raw index of table row
+  - <Key>k__BackingField: "\u63D2\u5165"
+    values:
+    - Insert
+  - <Key>k__BackingField: "\u5220\u9664"
+    values:
+    - Delete
+  - <Key>k__BackingField: "\u589E\u52A0"
+    values:
+    - Append
+  - <Key>k__BackingField: "\u66FF\u6362\u5168\u90E8"
+    values:
+    - Replace All
+  - <Key>k__BackingField: "\u66FF\u6362\u4E0B\u4E00\u4E2A"
+    values:
+    - Replace Next
+  - <Key>k__BackingField: "\u5B9A\u4F4D\u9519\u8BEF\u884C"
+    values:
+    - Locate Error
+  - <Key>k__BackingField: "\u8BED\u8A00"
+    values:
+    - Language
+  - <Key>k__BackingField: "\u8BED\u8A00{0}"
+    values:
+    - Language {0}
+  - <Key>k__BackingField: "\u7D22\u5F15"
+    values:
+    - Key
+  - <Key>k__BackingField: "\u5217\u53F7"
+    values:
+    - Column
+  - <Key>k__BackingField: "\u53EA\u6709\u6309\u5E8F\u53F7\u7684\u5347\u5E8F\u6392\u5E8F\u65F6\u624D\u80FD\u62D6\u62FD"
+    values:
+    - You can drag only when ordering by ascending row-number
+  - <Key>k__BackingField: "\u5220\u9664\u5217"
+    values:
+    - Delete Col.
+  - <Key>k__BackingField: "\u589E\u52A0\u5217"
+    values:
+    - Add Col.
+  - <Key>k__BackingField: "\u542F\u7528\u5BF9\u8BDD\u8096\u50CF"
+    values:
+    - Enable Portrait
+  - <Key>k__BackingField: "\u542F\u7528\u5BF9\u8BDD\u8BED\u97F3"
+    values:
+    - Enable Voice
+  - <Key>k__BackingField: "\u62E6\u622A"
+    values:
+    - Block
+  - <Key>k__BackingField: "\u6309\u6761\u4EF6\u62E6\u622A"
+    values:
+    - Block By Conditions
+  - <Key>k__BackingField: "\u6EE1\u8DB3\u6307\u5B9A\u6761\u4EF6\u65F6\u624D\u53EF\u8FDB\u5165\u4ECE\u672C\u7ED3\u70B9\u5F00\u59CB\u7684\u5206\u652F\u3002"
+    values:
+    - You can enter the branch starting from this node only when the specified conditions
+      are met.
+  - <Key>k__BackingField: "\u6761\u4EF6\u7EC4"
+    values:
+    - Condition Group
+  - <Key>k__BackingField: "\u6570\u91CF"
+    values:
+    - Count
+  - <Key>k__BackingField: "\u672A\u8865\u5168"
+    values:
+    - Incomplete
+  - <Key>k__BackingField: "\u4E3B\u8981"
+    values:
+    - Main
+  - <Key>k__BackingField: "\u6761\u4EF6\u663E\u793A"
+    values:
+    - Conditional Display
+  - <Key>k__BackingField: "\u5B8C\u6210\u524D\u663E\u793A"
+    values:
+    - Display Before Done
+  - <Key>k__BackingField: "\u6309\u6761\u4EF6\u663E\u793A"
+    values:
+    - Display By Conditions
+  - <Key>k__BackingField: "\u590D\u5236"
+    values:
+    - Copy
+  - <Key>k__BackingField: "\u6DFB\u52A0\u5230"
+    values:
+    - Add To
+  - <Key>k__BackingField: "\u65B0\u5EFA\u4E00\u4E2A\u5206\u7EC4"
+    values:
+    - Create New Group
+  - <Key>k__BackingField: "\u5206\u7EC4"
+    values:
+    - Group
+  - <Key>k__BackingField: "\u9009\u9879\u4FEE\u9970"
+    values:
+    - Option Decorator
+  - <Key>k__BackingField: "\u7C97\u4F53\u9009\u9879"
+    values:
+    - Bold Option
+  - <Key>k__BackingField: "\u67D3\u8272\u9009\u9879"
+    values:
+    - Colorful Option
+  - <Key>k__BackingField: "\u659C\u4F53\u9009\u9879"
+    values:
+    - Italic Option
+  - <Key>k__BackingField: "\u5916\u7F6E\u9009\u9879"
+    values:
+    - External Options
+  - <Key>k__BackingField: "\u968F\u673A\u987A\u5E8F\u9009\u9879"
+    values:
+    - Random Order Options
+  - <Key>k__BackingField: "\u8BED\u53E5"
+    values:
+    - Sentence
+  - <Key>k__BackingField: "\u7279\u6B8A"
+    values:
+    - Special
+  - <Key>k__BackingField: "\u5206\u652F"
+    values:
+    - Branch
+  - <Key>k__BackingField: "\u5176\u5B83\u5BF9\u8BDD"
+    values:
+    - Other Dialogue
+  - <Key>k__BackingField: "\u540E\u7F00"
+    values:
+    - Suffix
+  - <Key>k__BackingField: "\u9012\u5F52"
+    values:
+    - Recursion
+  - <Key>k__BackingField: "\u4ECE\u672C\u7ED3\u70B9\u5F00\u59CB\u7684\u5206\u652F\u5728\u5B8C\u6210\u524D\u53EF\u8FDB\u5165\u3002"
+    values:
+    - You can enter the branch starting from this node before it is done.
+  - <Key>k__BackingField: "\u6EE1\u8DB3\u6761\u4EF6\u65F6\u53EF\u8FDB\u5165\u4ECE\u672C\u7ED3\u70B9\u5F00\u59CB\u7684\u5206\u652F\u3002"
+    values:
+    - You can enter the branch starting from this node if specified conditions are
+      met.
+  - <Key>k__BackingField: "\u4EE5\u7C97\u4F53\u663E\u793A\u9009\u9879\u6807\u9898\u3002"
+    values:
+    - Display the title of option in bold.
+  - <Key>k__BackingField: "\u4EE5\u6307\u5B9A\u989C\u8272\u663E\u793A\u9009\u9879\u6807\u9898\u3002"
+    values:
+    - Display the title of option in specified color.
+  - <Key>k__BackingField: "\u4EE5\u659C\u4F53\u663E\u793A\u9009\u9879\u6807\u9898\u3002"
+    values:
+    - Display the title of option in italic.
+  - <Key>k__BackingField: "\u4EE5\u7B2C\u4E00\u4E2A\u6EE1\u8DB3\u6761\u4EF6\u7684\u5206\u652F\u4F5C\u4E3A\u524D\u4E00\u4E2A\u7ED3\u70B9\u7684\u4E0B\u4E00\u53E5\uFF0C\u82E5\u65E0\u53EF\u7528\u5206\u652F\uFF0C\u5219\u524D\u4E00\u4E2A\u7ED3\u70B9\u5C06\u88AB\u89C6\u4E3A\u7ED3\u675F\u7ED3\u70B9\u3002"
+    values:
+    - Make the first option that meet conditions as the next node of its previous
+      node, if there's no available branch, then the previous node will be regarded
+      as an exit node.
+  - <Key>k__BackingField: "\u65B0\u5EFA"
+    values:
+    - Create
+  - <Key>k__BackingField: "\u5BFC\u822A\u56FE"
+    values:
+    - Mini Map
+  - <Key>k__BackingField: "\u5BF9\u8BDD\u5217\u8868"
+    values:
+    - Dialogues
+  - <Key>k__BackingField: "\u68C0\u67E5\u5668"
+    values:
+    - Inspector
+  - <Key>k__BackingField: "\u5237\u65B0\u89C6\u56FE"
+    values:
+    - Refresh
+  - <Key>k__BackingField: "\u63CF\u8FF0"
+    values:
+    - Description
+  - <Key>k__BackingField: "\u9884\u89C8"
+    values:
+    - Preview
+  - <Key>k__BackingField: "\u53D1\u751F\u4FEE\u6539"
+    values:
+    - Excel Modified
+  - <Key>k__BackingField: "\u68C0\u6D4B\u5230Excel\u6587\u4EF6\u53D1\u751F\u6539\u52A8\uFF0C\u662F\u5426\u5237\u65B0\u5F53\u524D\u5185\u5BB9\uFF1F"
+    values:
+    - Changes have been detected in the Excel file. Do you want to refresh the current
+      content?
+  - <Key>k__BackingField: "\u786E\u5B9A"
+    values:
+    - OK
+  - <Key>k__BackingField: "\u53D6\u6D88"
+    values:
+    - Cancel
+  - <Key>k__BackingField: "\u8DEF\u5F84"
+    values:
+    - Path
+  - <Key>k__BackingField: "\u6253\u5F00"
+    values:
+    - Open
+  - <Key>k__BackingField: "\u5237\u65B0"
+    values:
+    - Refresh
+  - <Key>k__BackingField: "\u9009\u62E9Excel\u6587\u4EF6"
+    values:
+    - Select An Excel File
+  - <Key>k__BackingField: "\u5DE5\u4F5C\u7C3F"
+    values:
+    - Sheet
+  - <Key>k__BackingField: "\u5BFC\u5165"
+    values:
+    - Import
+  - <Key>k__BackingField: "\u5168\u90E8\u5BFC\u5165"
+    values:
+    - Import All
+  - <Key>k__BackingField: "\u8BFB\u53D6Excel\u5931\u8D25\uFF0C\u53EF\u80FD\u8DEF\u5F84\u4E0D\u5B58\u5728\uFF0C\u6216Excel\u5904\u4E8E\u6253\u5F00\u72B6\u6001\uFF0C\u6B64\u65F6\u65E0\u6CD5\u8BFB\u53D6\u3002"
+    values:
+    - Failed to read Excel. The path may not exist, or Excel is open and cannot be
+      read at this time.
+  - <Key>k__BackingField: "\u8BFB\u53D6\u5931\u8D25\uFF0C\u8BF7\u68C0\u67E5\u6240\u9009Excel\u8868\u7684\u683C\u5F0F\u548C\u6570\u636E\uFF01"
+    values:
+    - Failed to read. Please check the format and data of the selected Excel table!
+  - <Key>k__BackingField: "\u7F16\u8F91"
+    values:
+    - Edit
+  - <Key>k__BackingField: "\u672A\u547D\u540D\u5217 {0}"
+    values:
+    - Nameless Col. {0}
+  - <Key>k__BackingField: "Excel\u7FFB\u8BD1\u5305\u5BFC\u5165\u5DE5\u5177"
+    values:
+    - Excel Translation Importer
+  - <Key>k__BackingField: "\u786E\u5B9A\u5220\u9664\u7B2C {0} \u4E2A\u8BED\u8A00\u5417\uFF1F"
+    values:
+    - Are you sure to delete column {0} ?
+  - <Key>k__BackingField: "\u4ECE0\u5F00\u59CB\uFF0C\u4E0D\u5305\u542B\u5E8F\u53F7\u5217"
+    values:
+    - Start from 0, exclude column of NO.
+  - <Key>k__BackingField: "\u70B9\u51FB\u5B9A\u4F4D\u5230\u9519\u8BEF\u884C"
+    values:
+    - Locate the error row.
+  - <Key>k__BackingField: "\u533A\u5206\u5927\u5C0F\u5199"
+    values:
+    - Check case
+  - <Key>k__BackingField: "\u5168\u5B57\u5339\u914D"
+    values:
+    - Whole word matching
+  - <Key>k__BackingField: "\u521B\u5EFA\u201C{0}\u201D\u5931\u8D25, \u56E0\u4E3A\u5DF2\u5B58\u5728\u5355\u4F8B,
+      \u8DEF\u5F84: {1}"
+    values:
+    - 'Create ''{0}'' failed, because there''s already one singleton at path: {1}'
+  - <Key>k__BackingField: "\u5355\u4F8B"
+    values:
+    - Singleton
+  - <Key>k__BackingField: "\u5B58\u5728\u591A\u4E2A\u5B9E\u4F8B\uFF1A"
+    values:
+    - 'Exist multiple instance: '
+  - <Key>k__BackingField: "\u8BF7\u52FF\u5728\u7F16\u8F91\u6A21\u5F0F\u521D\u59CB\u5316\u201C{0}\u201D\u9759\u6001\u7C7B"
+    values:
+    - DO NOT initializing the '{0}' static class in edit mode
+  - <Key>k__BackingField: "\u8BF7\u52FF\u5728\u7F16\u8F91\u6A21\u5F0F\u4F7F\u7528
+      \u201C{0}\u201D \u9759\u6001\u7C7B\u7684\u8FD0\u884C\u65F6\u65B9\u6CD5"
+    values:
+    - DO NOT using the runtime methods of '{0}' static class in edit mode
+  - <Key>k__BackingField: "\u5BF9\u8BDD\u7F16\u8F91\u5668"
+    values:
+    - Dialogue Editor
+  - <Key>k__BackingField: "\u65B0\u9009\u9879"
+    values:
+    - Option
+  - <Key>k__BackingField: "\u4FDD\u6301\u8096\u50CF\u4F4D\u7F6E"
+    values:
+    - Keep Portrait Side
+  - <Key>k__BackingField: "\u5BF9\u8BDD\u4EBA"
+    values:
+    - Interlocutor
+  - <Key>k__BackingField: "\u5F00\u59CB\u5BF9\u8BDD"
+    values:
+    - Entry
+  - <Key>k__BackingField: "\u7ED3\u675F\u5BF9\u8BDD"
+    values:
+    - Exit
+  - <Key>k__BackingField: "\u5410\u5B57\u95F4\u9694"
+    values:
+    - Speak Interval
+  - <Key>k__BackingField: "[{0}]\u8BF4\uFF1A"
+    values:
+    - '[{0}] Say: '
+  - <Key>k__BackingField: "\u73A9\u5BB6"
+    values:
+    - Player
+  - <Key>k__BackingField: "\u4EA4\u4E92\u5BF9\u8C61"
+    values:
+    - Target
+  - <Key>k__BackingField: "\u8BED\u97F3"
+    values:
+    - Voice
+  - <Key>k__BackingField: "(\u7C7B\u540D), (\u547D\u540D\u7A7A\u95F4), Assembly-CSharp"
+    values:
+    - (Class), (Namespace), Assembly-CSharp
+  - <Key>k__BackingField: "\u7C7B\u540D\u683C\u5F0F\u4E0D\u6B63\u786E\uFF0C\u5E94\u4E3A\uFF1A\"\u7C7B\u540D,
+      \u547D\u540D\u7A7A\u95F4(\u5982\u679C\u6709), \u7A0B\u5E8F\u96C6\""
+    values:
+    - Format incorrect, it should be 'Class, Namespace(Optional), Assembly'
+  - <Key>k__BackingField: "\u68C0\u7D22\u7C7B\u540D"
+    values:
+    - Search In Type
+  - <Key>k__BackingField: "\u66FF\u6362"
+    values:
+    - Replace
+  - <Key>k__BackingField: "\u4E3A"
+    values:
+    - With
+  - <Key>k__BackingField: "\u4FEE\u590D"
+    values:
+    - Click To Fix
+  - <Key>k__BackingField: "\u5F15\u7528\u4FEE\u590D"
+    values:
+    - References Fixing
+  - <Key>k__BackingField: "\u67E5\u627E\u66FF\u6362\u4E2D"
+    values:
+    - Searching
+  - <Key>k__BackingField: "\u5F53\u524D\u8DEF\u5F84: {0}"
+    values:
+    - 'Path: {0}'
+  - <Key>k__BackingField: "\u5171\u4FEE\u590D\u4E86 {0} \u4E2A\u8D44\u6E90"
+    values:
+    - Fixed {0} asset(s) in total
+  - <Key>k__BackingField: "\u65E0\u9519\u8BEF"
+    values:
+    - No error
+  - <Key>k__BackingField: "\u8981\u66FF\u6362\u7684\u5185\u5BB9\u4E00\u6837"
+    values:
+    - Same replacing content
+  - <Key>k__BackingField: "\u5982\u679C\u60F3\u8BA9\u8096\u50CF\u5728\u5BF9\u8BDD\u4EBA\u4E0D\u4E00\u6837\u65F6\u4FDD\u6301\u4E0A\u4E00\u53E5\u7684\u4F4D\u7F6E\uFF0C\u52FE\u9009\u8FD9\u4E2A"
+    values:
+    - If you want to keep the same portrait side with previous sentence when interlocutor
+      is different, check this.
+  - <Key>k__BackingField: "\u6761\u4EF6\u8868"
+    values:
+    - List
+  - <Key>k__BackingField: "\u8BA1\u7B97\u516C\u5F0F"
+    values:
+    - Formula
+  - <Key>k__BackingField: "\u6761\u4EF6\u8BA1\u7B97\u516C\u5F0F\\n1\u3001\u64CD\u4F5C\u6570\u4E3A\u6761\u4EF6\u7684\u4E0B\u6807\\n2\u3001\u8FD0\u7B97\u7B26\u53EF\u4F7F\u7528
+      \"(\"\u3001\")\"\u3001\"|\"(\u6216)\u3001\"&\"(\u4E14)\u3001\"!\"(\u975E)\\n3\u3001\u672A\u5BF9\u975E\u6CD5\u8F93\u5165\u8FDB\u884C\u5904\u7406\uFF0C\u9700\u89C4\u8303\u586B\u5199\\n4\u3001\u4F8B\uFF1A\"(0
+      | 1) & !2\" \u8868\u793A\u6EE1\u8DB3\u6761\u4EF60\u62161\u4E14\u4E0D\u6EE1\u8DB3\u6761\u4EF62\\n5\u3001\u4E3A\u7A7A\u65F6\u9ED8\u8BA4\u8FDB\u884C\u76F8\u4E92\u7684\u201C\u4E14\u201D\u8FD0\u7B97"
+    values:
+    - "The formula of condition calculation\\n1. The operands are condition's indices\\n2.
+      The operator can be '('\u3001')'\u3001'|'(or)\u3001'&'(and)\u3001'!'(not)\\n3.
+      Will not handle invalid input, please fill in normatively\\n4. Example: '(0
+      | 1) & !2' indicates that we need to meet condition 0 or 1, and not meet condition
+      2\\n5. If this is empty, will calculate with 'and' operation mutually."
+  - <Key>k__BackingField: "\u786E\u5B9A\u8981\u5C06\u8BE5\u5BF9\u8BDD\u79FB\u81F3\u56DE\u6536\u7AD9\u5417\uFF1F"
+    values:
+    - Are you sure to move this dialogue to the recycle bin?
+  - <Key>k__BackingField: "\u67E5\u770B\u4E8B\u4EF6"
+    values:
+    - View Event
+  - <Key>k__BackingField: "\u67E5\u770B{0}\u4E2A\u4E8B\u4EF6"
+    values:
+    - View {0} Event(s)
+  - <Key>k__BackingField: "\u5BF9\u8BDD\u4E8B\u4EF6"
+    values:
+    - Dialogue Events
+  - <Key>k__BackingField: "\u7F16\u8F91\u5668\u8BBE\u7F6E"
+    values:
+    - Editor Settings
+  - <Key>k__BackingField: "\u5BF9\u8BDD\u7F16\u8F91\u5668\u8BBE\u7F6E"
+    values:
+    - Dialogue Editor Settings
+  - <Key>k__BackingField: "\u663E\u793A"
+    values:
+    - Display
+  - <Key>k__BackingField: "\u9690\u85CF"
+    values:
+    - Hide
+  - <Key>k__BackingField: "\u663E\u9690"
+    values:
+    - Switch
+  - <Key>k__BackingField: "\u6CE8\u610F\uFF1A\u662F\u5410\u5B57\u201C\u95F4\u9694\u201D\u4E0D\u662F\u5410\u5B57\u201C\u901F\u5EA6\u201D\uFF0C\u5176\u7EB5\u5411\u6570\u503C\u8D8A\u9AD8\uFF0C\u8BED\u901F\u8D8A\u6162"
+    values:
+    - 'Note: This is speak ''interval'', not speak ''speed'', the higher the longitudinal
+      value is, the slower speak speed get.'
+  - <Key>k__BackingField: "\u8F6C\u4E3A\u666E\u901A\u9009\u9879"
+    values:
+    - To Normal Option
+  - <Key>k__BackingField: "\u8F6C\u4E3A\u4E3B\u8981\u9009\u9879"
+    values:
+    - To Main Option
+  - <Key>k__BackingField: "\u4E0A\u79FB\u9009\u9879"
+    values:
+    - Move Up
+  - <Key>k__BackingField: "\u4E0B\u79FB\u9009\u9879"
+    values:
+    - Move Down
+  - <Key>k__BackingField: "\u65AD\u5F00\u6240\u6709"
+    values:
+    - Disconnect All
+  - <Key>k__BackingField: "\u5BF9\u8BDD\u7684\u6839\u7ED3\u70B9\u3002"
+    values:
+    - The root node of a dialogue.
+  - <Key>k__BackingField: "\u7C7B\u578B\u4E22\u5931\u7684\u7ED3\u70B9"
+    values:
+    - Type-Missing Node
+  - <Key>k__BackingField: "\u6700\u57FA\u672C\u7684\u5BF9\u8BDD\u5355\u4F4D\u3002"
+    values:
+    - Sentence node is the basic unit of a dialogue.
+  - <Key>k__BackingField: "\u7528\u4E8E\u6807\u8BC6\u5BF9\u8BDD\u7684\u7ED3\u675F\u4F4D\u7F6E\u3002"
+    values:
+    - Use for setting what nodes should be exit node.
+  - <Key>k__BackingField: "\u89E6\u53D1\u4E8B\u4EF6"
+    values:
+    - Trigger Event
+  - <Key>k__BackingField: "\u8FDB\u5165\u6B64\u7ED3\u70B9\u65F6\u89E6\u53D1\u7ED9\u5B9A\u7684\u4E8B\u4EF6\uFF0C\u7136\u540E\u4EE5\u4E0B\u4E00\u4E2A\u7ED3\u70B9\u7EE7\u7EED\u5BF9\u8BDD\u3002"
+    values:
+    - Trigger events when enter this node, then continue the dialogue with next node.
+  - <Key>k__BackingField: "\u786E\u5B9A\u8981\u5C06\u9009\u4E2D\u7684\u5BF9\u8BDD\u79FB\u81F3\u56DE\u6536\u7AD9\u5417\uFF1F"
+    values:
+    - Are you sure to move selected dialogue(s) to the recycle bin?
+  - <Key>k__BackingField: "\u65B0\u5206\u7EC4"
+    values:
+    - New Group
+  - <Key>k__BackingField: "\u5168\u9009"
+    values:
+    - Select All
+  - <Key>k__BackingField: "\u5168\u90E8\u5206\u79BB"
+    values:
+    - Separate All
+  - <Key>k__BackingField: "\u5168\u90E8\u5220\u9664"
+    values:
+    - Delete All
+  - <Key>k__BackingField: "\u4EC5\u5220\u9664\u7EC4"
+    values:
+    - Only Delete Group
+  - <Key>k__BackingField: "\u5F00\u59CB\u4E00\u6BB5\u65B0\u7684\u5BF9\u8BDD\uFF0C\u4F46\u4F1A\u4FDD\u6301\u9996\u4E2A\u5BF9\u8BDD\u7684\u6839\u7ED3\u70B9\u4F5C\u4E3A\u9996\u9875\uFF0C\u5E76\u5728\u7ED3\u675F\u65F6\u8FD4\u56DE\u539F\u5BF9\u8BDD"
+    values:
+    - Start a new dialogue, but will keep the entry node of first dialogue as home
+      node, and return to the origin dialogue at the end.
+  - <Key>k__BackingField: "\u79FB\u51FA\u672C\u7EC4"
+    values:
+    - Separate
+  - <Key>k__BackingField: "\u5B9A\u4F4D"
+    values:
+    - Locate
+  - <Key>k__BackingField: "\u63D2\u5165\u5173\u952E\u5B57"
+    values:
+    - Insert Keyword
+  - <Key>k__BackingField: "\u540D\u79F0"
+    values:
+    - Name
+  - <Key>k__BackingField: "\u65E0\u6548\u7684\u7ED3\u70B9"
+    values:
+    - Invalid Node
+  - <Key>k__BackingField: "\u5C1D\u8BD5\u4FEE\u590D"
+    values:
+    - Try Fix
+  - <Key>k__BackingField: "\u9519\u8BEF"
+    values:
+    - Error
+  - <Key>k__BackingField: "\u8B66\u544A"
+    values:
+    - Warning
+  - <Key>k__BackingField: "\u5BF9\u8BDD\u65E0\u7ED3\u675F\u70B9"
+    values:
+    - No end node in this dialogue
+  - <Key>k__BackingField: "\u7B2C{0}\u4E2A\u7ED3\u70B9\u5B58\u5728\u65E0\u6548\u9009\u9879"
+    values:
+    - Invalid option(s) found in node {0}
+  - <Key>k__BackingField: "\u7B2C{0}\u4E2A\u7ED3\u70B9\u586B\u5199\u9519\u8BEF"
+    values:
+    - Invalid data found in node {0}
+  - <Key>k__BackingField: "\u5BF9\u8BDD\u53EF\u80FD\u65E0\u7ED3\u675F\u70B9"
+    values:
+    - This dialogue may have no end node
+  - <Key>k__BackingField: "\u6309\u6027\u522B\u663E\u793A"
+    values:
+    - Display By Gender
+  - <Key>k__BackingField: "\u5C06\u7528\u7A7A\u5B57\u7B26\u4E32\u66FF\u6362\uFF0C\u662F\u5426\u7EE7\u7EED\uFF1F"
+    values:
+    - Will replace with EMPTY string, are you sure?
+  - <Key>k__BackingField: "\u4FEE\u6539 {0}"
+    values:
+    - Modified {0}
+  - <Key>k__BackingField: "\u627E\u5230\u591A\u4E2A {0}\uFF0C\u5C06\u4F7F\u7528\u7B2C\u4E00\u4E2A"
+    values:
+    - More than one {0} are found, the first one of them will be use.
+  - <Key>k__BackingField: "\u7F16\u8F91\u5668"
+    values:
+    - Editor
+  - <Key>k__BackingField: "\u5C06\u4F1A\u5728\u672C\u5730\u521B\u5EFA\u4E00\u4E2A\u6807\u7B7E\u7684\u7FFB\u8BD1\u6620\u5C04\u8868\u5E76\u5F15\u7528\uFF0C\u662F\u5426\u7EE7\u7EED\uFF1F"
+    values:
+    - Will create a local language set asset for all labels and reference it, want
+      continue?
+  - <Key>k__BackingField: "\u5C06\u4F1A\u5728\u672C\u5730\u521B\u5EFA\u4E00\u4E2A\u9009\u9879\u6807\u9898\u7684\u7FFB\u8BD1\u6620\u5C04\u8868\uFF0C\u662F\u5426\u7EE7\u7EED\uFF1F"
+    values:
+    - Will create a local language set asset for all option titles, want continue?
+  - <Key>k__BackingField: "\u5C06\u4F1A\u5728\u672C\u5730\u521B\u5EFA\u4E00\u4E2A\u5BF9\u8BDD\u8BED\u53E5\u7684\u7FFB\u8BD1\u6620\u5C04\u8868\uFF0C\u662F\u5426\u7EE7\u7EED\uFF1F"
+    values:
+    - Will create a local language set asset for all speech contents, want continue?
+  - <Key>k__BackingField: "\u5C06\u4F1A\u5728\u672C\u5730\u521B\u5EFA\u4E00\u4E2A\u5BF9\u8BDD\u4EBA\u7684\u7FFB\u8BD1\u6620\u5C04\u8868\uFF0C\u662F\u5426\u7EE7\u7EED\uFF1F"
+    values:
+    - Will create a local language set asset for all interlocutors, want continue?
+  - <Key>k__BackingField: "\u63D0\u793A"
+    values:
+    - Tips
+  - <Key>k__BackingField: "\u7EE7\u7EED"
+    values:
+    - Continue
+  - <Key>k__BackingField: "\u5B58\u5728\u591A\u4E2A\u6FC0\u6D3B\u7684<{0}>\uFF0C\u8BF7\u786E\u4FDD\u53EA\u6FC0\u6D3B\u4E00\u4E2A"
+    values:
+    - There are more than one activated <{0}>, please keep only one of them.
+  - <Key>k__BackingField: "\u5B58\u5728\u591A\u4E2A\u6FC0\u6D3B\u7684<{0}>\uFF0C\u8BF7\u79FB\u9664\u6216\u5931\u6D3B\u5176\u5B83\\n"
+    values:
+    - There are more than one activated <{0}>, please remove or deactivate others.\n
+  - <Key>k__BackingField: "\u4F4D\u7F6E "
+    values:
+    - 'Path '
+  - <Key>k__BackingField: "\u5BF9\u8BDD\u6587\u672C"
+    values:
+    - Content
+  - <Key>k__BackingField: " (\u91CD\u540D {0})"
+    values:
+    - ' (Dup. {0})'
+  - <Key>k__BackingField: "\u9009\u4E2D\u9012\u5F52\u70B9"
+    values:
+    - Pick Node To Return
+  - <Key>k__BackingField: "\u4E3B\u8981\u9009\u9879"
+    values:
+    - Main Option
+  - <Key>k__BackingField: "\u666E\u901A\u9009\u9879"
+    values:
+    - Normal Option
+  - <Key>k__BackingField: "\u63D2\u5165\u5185\u5BB9"
+    values:
+    - Insert Content
+  - <Key>k__BackingField: "\u5B58\u5728\u7A7A\u7684\u952E"
+    values:
+    - Exist empty key
+  - <Key>k__BackingField: "\u5B58\u5728\u76F8\u540C\u7684\u952E"
+    values:
+    - Exist duplicate key
+  - <Key>k__BackingField: "\u5B58\u5728\u9519\u8BEF"
+    values:
+    - Error
+  - <Key>k__BackingField: "\u5E8F\u53F7\u4E3A {0} \u7684\u884C\u5B58\u5728\u9519\u8BEF"
+    values:
+    - Row {0} has error
+  - <Key>k__BackingField: "\u67E5\u770B\u9519\u8BEF"
+    values:
+    - View Error
+  - <Key>k__BackingField: "\u8FD4\u56DE\u5230\u524D\u9762\u6307\u5B9A\u7684\u8BED\u53E5\u7ED3\u70B9\u3002"
+    values:
+    - Return to specified sentence node in front of it.
+  - <Key>k__BackingField: "\u6309\u968F\u673A\u987A\u5E8F\u663E\u793A\u4E0A\u4E00\u4E2A\u7ED3\u70B9\u5916\u7F6E\u5728\u6B64\u5904\u7684\u9009\u9879\u3002"
+    values:
+    - Display options that previous node externalize here in random order.
+  - <Key>k__BackingField: "\u672A\u5B9A\u4E49"
+    values:
+    - Nameless
+  - <Key>k__BackingField: "\u65E0\u5185\u5BB9"
+    values:
+    - No Content
+  - <Key>k__BackingField: "\u7C98\u8D34"
+    values:
+    - Paste
+  - <Key>k__BackingField: "\u5F53\u524D"
+    values:
+    - Current
+  - <Key>k__BackingField: "\u7ED3\u70B9 {0}"
+    values:
+    - Node {0}
+  - <Key>k__BackingField: "\u7C7B\u578B"
+    values:
+    - Type
+  - <Key>k__BackingField: "\u9009\u9879 {0}"
+    values:
+    - Option {0}
+  - <Key>k__BackingField: "\u8BF7\u5148\u4FEE\u590D\u6216\u5220\u9664\u6240\u6709\u65E0\u6548\u7ED3\u70B9\u7136\u540E\u5237\u65B0"
+    values:
+    - Please fix or delete invalid nodes then refresh
+  - <Key>k__BackingField: "\u6253\u5F00\u7A97\u53E3"
+    values:
+    - Open Window
+  - <Key>k__BackingField: "\u7F16\u8F91\u811A\u672C"
+    values:
+    - Edit Script
+  - <Key>k__BackingField: "\u786E\u8BA4\u4EE5\u7EE7\u7EED"
+    values:
+    - Confirm To Continue
+  - <Key>k__BackingField: "\u589E\u52A0\u65B0\u7C7B\u578B"
+    values:
+    - Create New Type
+  - <Key>k__BackingField: "\u666E\u901A"
+    values:
+    - Normal
+  - <Key>k__BackingField: "\u6211\u7684\u7ED3\u70B9"
+    values:
+    - My Node
+  - <Key>k__BackingField: "\u6211\u7684\u62E6\u622A\u7ED3\u70B9"
+    values:
+    - My Block
+  - <Key>k__BackingField: "\u6211\u7684\u6761\u4EF6\u7ED3\u70B9"
+    values:
+    - My Condition
+  - <Key>k__BackingField: "\u6211\u7684\u4FEE\u9970\u7ED3\u70B9"
+    values:
+    - My Decorator
+  - <Key>k__BackingField: "\u6211\u7684\u5916\u7F6E\u9009\u9879\u7ED3\u70B9"
+    values:
+    - My External Options
+  - <Key>k__BackingField: "\u6211\u7684\u8BED\u53E5\u7ED3\u70B9"
+    values:
+    - My Sentence
+  - <Key>k__BackingField: "\u6211\u7684\u540E\u7F00\u7ED3\u70B9"
+    values:
+    - My Suffix
+  - <Key>k__BackingField: "\u6309\u6761\u4EF6\u5206\u53C9"
+    values:
+    - Bifurcate By Conditions
+  - <Key>k__BackingField: "\u5F53\u7B26\u5408\u6761\u4EF6\u65F6\uFF0C\u5C06\u4F7F\u7528\u7B2C\u4E00\u4E2A\u5206\u652F\u7EE7\u7EED\u5BF9\u8BDD\uFF0C\u5426\u5219\u4F7F\u7528\u7B2C\u4E8C\u4E2A\u5206\u652F\u3002"
+    values:
+    - When the conditions are met, the first branch will be used to continue the
+      conversation, otherwise the second one will be used.
+  - <Key>k__BackingField: "\u5B50\u5BF9\u8BDD"
+    values:
+    - Sub Dialogue
+  - <Key>k__BackingField: "\u5206\u53C9"
+    values:
+    - Bifurcation
+  - <Key>k__BackingField: "\u786E\u8BA4\u4EE5\u5206\u53C9"
+    values:
+    - Confirm To Bifurcate
+  - <Key>k__BackingField: "\u786E\u8BA4\u6216\u53D6\u6D88\u4EE5\u5F00\u59CB\u4E0D\u540C\u7684\u5206\u652F"
+    values:
+    - Click Confirm or Cancel to start different branch
+  - <Key>k__BackingField: "\u521B\u5EFAUXML"
+    values:
+    - Create UXML
+  - <Key>k__BackingField: "\u521B\u5EFAUSS"
+    values:
+    - Create USS
+  - <Key>k__BackingField: "\u6536\u96C6\u4E2D"
+    values:
+    - Collecting
+  - <Key>k__BackingField: "\u5F53\u524D\u5BF9\u8BDD: {0}"
+    values:
+    - 'Current dialogue: {0}'
+  - <Key>k__BackingField: "\u5F53\u524D\u5B57\u6BB5: {0}"
+    values:
+    - 'Current field: {0}'
+  - <Key>k__BackingField: "\u8FD8\u539F\u9009\u9879"
+    values:
+    - Revert Options
+  - <Key>k__BackingField: "\u7528\u4E8E\u8FD8\u539F\u56E0\u9700\u8981\u4F7F\u7528\u8986\u76D6\u5668\u800C\u65E0\u6CD5\u653E\u7F6E\u9009\u9879\u7684\u8BED\u53E5\u7ED3\u70B9\u5E94\u6709\u7684\u9009\u9879\u3002"
+    values:
+    - This's used to revert options of sentence node which is overrided and cannot
+      have options.
+  - <Key>k__BackingField: "\u6309\u6761\u4EF6\u8986\u76D6\u8096\u50CF"
+    values:
+    - Override Portrait By Condtions
+  - <Key>k__BackingField: "\u6309\u6761\u4EF6\u8986\u76D6\u8BED\u97F3"
+    values:
+    - Override Voice By Condtions
+  - <Key>k__BackingField: "\u6EE1\u8DB3\u6761\u4EF6\u65F6\u8986\u76D6\u5B83\u7684\u4E0A\u4E00\u4E2A\u8BED\u53E5\u7ED3\u70B9\u7684\u8096\u50CF\u3002"
+    values:
+    - Override portrait of its previous sentence node when conditions are met.
+  - <Key>k__BackingField: "\u6EE1\u8DB3\u6761\u4EF6\u65F6\u8986\u76D6\u5B83\u7684\u4E0A\u4E00\u4E2A\u8BED\u53E5\u7ED3\u70B9\u7684\u8BED\u97F3\u3002"
+    values:
+    - Override voice of its previous sentence node when conditions are met.
+  - <Key>k__BackingField: "\u8986\u76D6"
+    values:
+    - Override
+  - <Key>k__BackingField: "\u672C\u5730\u5316\u6587\u4EF6\u4FEE\u590D"
+    values:
+    - Localization Assets Fixing
+  - <Key>k__BackingField: "\u66FF\u6362\u5BF9\u8C61"
+    values:
+    - Rename Target
+  - <Key>k__BackingField: "\u5B57\u6BB5"
+    values:
+    - Field
+  - <Key>k__BackingField: "\u81EA\u52A8\u5C5E\u6027"
+    values:
+    - Auto Property
+  - <Key>k__BackingField: "\u65E7\u540D\u79F0"
+    values:
+    - Old Name
+  - <Key>k__BackingField: "\u65B0\u540D\u79F0"
+    values:
+    - New Name
+  - <Key>k__BackingField: "\u4E00\u952E\u66FF\u6362"
+    values:
+    - Click To Rename
+  - <Key>k__BackingField: "\u6CA1\u6709\u8981\u5904\u7406\u7684\u672C\u5730\u5316\u6587\u4EF6"
+    values:
+    - There's no Localization asset needs to be handled.
+  - <Key>k__BackingField: "\u6210\u529F\u5904\u7406 {0} \u4E2A\u672C\u5730\u5316\u6587\u4EF6"
+    values:
+    - Handle {0} Localization asset(s) successfully.
+  - <Key>k__BackingField: "\u6B64\u5DE5\u5177\u53EF\u4FEE\u590D1.0.0\u7248\u672C\u7684\u672C\u5730\u5316\u6587\u4EF6\u5728\u5347\u7EA7\u540E\u7FFB\u8BD1\u5305\u7684\u5F15\u7528\u4E22\u5931\u7684\u95EE\u9898"
+    values:
+    - This tool can be used to fix issue that references of Translation is missing
+      if you upgrate this plugin from 1.0.0 version to newer version.
+  - <Key>k__BackingField: "\u4E00\u952E\u4FEE\u590D"
+    values:
+    - Click To Fix
+  - <Key>k__BackingField: "\u91CD\u547D\u540D"
+    values:
+    - Rename
+  - <Key>k__BackingField: "\u8BE5\u76EE\u5F55\u4E0B\u5DF2\u5B58\u5728\u4F7F\u7528\u6B64\u540D\u79F0\u7684\u5BF9\u8BDD\u8D44\u6E90"
+    values:
+    - A dialgoue asset with this name already exists in this folder
+  _name: English Editor

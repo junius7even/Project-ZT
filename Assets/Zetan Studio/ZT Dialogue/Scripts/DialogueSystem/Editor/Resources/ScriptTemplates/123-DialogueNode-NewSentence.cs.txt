@@ -1,0 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using ZetanStudio;
+using ZetanStudio.DialogueSystem;
+
+[Name("我的语句结点"), Description("此处是结点悬浮描述")]
+public class #SCRIPTNAME# : SentenceNode { }

@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using ZetanStudio;
+using ZetanStudio.DialogueSystem;
+
+[Name("我的结点"), Description("此处是结点悬浮描述")]
+public class #SCRIPTNAME# : DialogueNode
+{
+    [field: SerializeField, Label("参数")]
+    public string Example { get; private set; }
+
+    public override bool IsValid => !string.IsNullOrEmpty(Example);
+
+#if UNITY_EDITOR
+    public override bool CanConnectFrom(DialogueNode from, DialogueOption option) => true;
+#endif
+}

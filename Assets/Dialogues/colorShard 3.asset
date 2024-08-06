@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455d18b99c9aab3428198fe3412f0db8, type: 3}
+  m_Name: colorShard 3
+  m_EditorClassIdentifier: 
+  nodes:
+  - rid: 8693329506914533450
+  - rid: 8693329506914533454
+  - rid: 8693329506914533456
+  - rid: 8693329506914533461
+  _exit:
+    <ID>k__BackingField: CON-d5c6c63614b34e04a6973d25a1dec95a
+    options: []
+    exitHere: 0
+    _position: {x: 678.2801, y: -33.000004}
+  _name: 
+  _description: 
+  _groups: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 8693329506914533450
+      type: {class: EntryNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: DLG-cc4eb1afc3b14364a6efaf911995b13e
+        options:
+        - <Title>k__BackingField: 
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: 8693329506914533454
+        exitHere: 0
+        _position: {x: 0, y: 0}
+        <Interlocutor>k__BackingField: "\u95EA\u95EA\u53D1\u5149\u7684\u77F3\u5934"
+        <Content>k__BackingField: "\u6211\u5F88\u6F02\u4EAE\u3002\u8D76\u7D27\u628A\u6211\u6361\u8D77\u6765\uFF01"
+        <SpeakInterval>k__BackingField:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <Portrait>k__BackingField: {fileID: 0}
+        <KeepPortraitSide>k__BackingField: 0
+        <Voice>k__BackingField: {fileID: 0}
+        <VoiceOffset>k__BackingField: 0
+        events: []
+        <Interruptable>k__BackingField: 1
+    - rid: 8693329506914533454
+      type: {class: EventNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: CON-c30f59415fd14ae891d3022030a4466f
+        options:
+        - <Title>k__BackingField: 
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: 8693329506914533456
+        exitHere: 0
+        _position: {x: 102, y: 198.5}
+        events:
+        - rid: 8693329506914533455
+    - rid: 8693329506914533455
+      type: {class: GetItemEvent, ns: ZetanStudio.Examples, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: EVT-133afe74ed6d43b19b2b988ddbacef50
+        <OneTime>k__BackingField: 0
+        <Item>k__BackingField:
+          ID: colorShard
+          amount: 1
+    - rid: 8693329506914533456
+      type: {class: SentenceNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: CON-8f810f61566641329879c4af8f3abf85
+        options:
+        - <Title>k__BackingField: Continue
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: 8693329506914533461
+        exitHere: 0
+        _position: {x: 337.15, y: 11.899979}
+        <Interlocutor>k__BackingField: "\u95EA\u95EA\u53D1\u5149\u7684\u77F3\u5934"
+        <Content>k__BackingField: "\u8FD9\u8FD8\u5DEE\u4E0D\u591A\uFF0C\u5C0F\u5B50\u3002"
+        <SpeakInterval>k__BackingField:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <Portrait>k__BackingField: {fileID: 0}
+        <KeepPortraitSide>k__BackingField: 0
+        <Voice>k__BackingField: {fileID: 0}
+        <VoiceOffset>k__BackingField: 0
+        events: []
+    - rid: 8693329506914533461
+      type: {class: EventNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: CON-6b08f938d12545e58e57ceef949c5ae3
+        options:
+        - <Title>k__BackingField: 
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: -2
+        exitHere: 0
+        _position: {x: 603.5, y: 192.5}
+        events:
+        - rid: 8693329506914533462
+    - rid: 8693329506914533462
+      type: {class: AnimationEvent, ns: J7.Extension, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: EVT-1990526e97d54fc485704058e689a7fa
+        <OneTime>k__BackingField: 0
+        <Anim>k__BackingField:
+          objectName: Essence3
+          animTrigger: dissappear

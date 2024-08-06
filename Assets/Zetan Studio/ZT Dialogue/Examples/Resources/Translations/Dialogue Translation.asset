@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73402b0326e54ac4e8faf201b5be2958, type: 3}
+  m_Name: Dialogue Translation
+  m_EditorClassIdentifier: 
+  items:
+  - <Key>k__BackingField: "\u6211\u662F{[NPC]}\uFF0C\u8FD9\u91CC\u53EF\u4EE5\u6D4B\u8BD5\u540E\u7F00"
+    values:
+    - I am {[NPC]}, suffix nodes can be tested here
+  - <Key>k__BackingField: "\u597D\u554A\uFF0C\u90A3\u5C31\u5F00\u59CB\u5427"
+    values:
+    - OK, let's get started
+  - <Key>k__BackingField: "\u4F60\u60F3\u8BD5\u54EA\u4E00\u79CD\uFF1F"
+    values:
+    - Which one do you want to test?
+  - <Key>k__BackingField: "\u8BF4\u5B8C\u8FD9\u53E5\u5C31\u53EF\u4EE5\u8FD4\u56DE\u5230\u4E0A\u4E00\u53E5\u4E86"
+    values:
+    - After saying this sentence, you will return to the previous sentence
+  - <Key>k__BackingField: "\u597D\uFF0C\u9009\u4E00\u4E2A\u9009\u9879\u5427"
+    values:
+    - OK, choose an option
+  - <Key>k__BackingField: "\u597D\uFF0C\u90A3\u5C31\u4E0B\u6B21"
+    values:
+    - OK, see you next time
+  - <Key>k__BackingField: "\u6211\u662F{[NPC]NPC0003}\uFF0C\u8FD9\u91CC\u53EF\u4EE5\u6D4B\u8BD5\u9009\u9879"
+    values:
+    - I am {[NPC]NPC0003}, you can test options here
+  - <Key>k__BackingField: "\u597D\u7684\uFF0C\u9009\u9879\u5DF2\u7ECF\u5217\u51FA\u6765\u4E86"
+    values:
+    - OK, the options are listed
+  - <Key>k__BackingField: "\u6548\u679C\u8FD8\u53EF\u4EE5"
+    values:
+    - The effect is OK
+  - <Key>k__BackingField: "\u597D\u7684\uFF0C\u60F3\u8BD5\u54EA\u4E00\u79CD\uFF1F"
+    values:
+    - OK, which one would you like to test?
+  - <Key>k__BackingField: "\u8FD9\u91CC\u7684\u9009\u9879\u987A\u5E8F\u53EA\u6709\u7B2C\u4E00\u6B21\u968F\u673A"
+    values:
+    - The order of options here is only random for the first time
+  - <Key>k__BackingField: "\u8FD9\u91CC\u7684\u9009\u9879\u987A\u5E8F\u6BCF\u6B21\u90FD\u4F1A\u968F\u673A"
+    values:
+    - The order of options here will be random every time
+  - <Key>k__BackingField: "\u9009\u9879\u529F\u80FD\u6B63\u5E38"
+    values:
+    - Option is functional
+  - <Key>k__BackingField: "\u6211\u662F{[NPC]}\uFF0C\u8FD9\u91CC\u53EF\u4EE5\u6D4B\u8BD5\u6253\u5B57\u52A8\u753B\u548C\u8BED\u97F3"
+    values:
+    - I am {[NPC]}, you can test typing animation and voice here
+  - <Key>k__BackingField: "<color=orange>\u8FD9\u4E00\u6BB5\u662F\u6162\u7684</color>\uFF0C<color=red>\u7136\u540E\u8FD9\u4E00\u6BB5\u4F1A\u8D8A\u6765\u8D8A\u5FEB</color>"
+    values:
+    - <color=orange>This section is slow</color>, <color=red>and this section will
+      get faster and faster</color>
+  - <Key>k__BackingField: "\u597D\uFF0C\u6211\u73B0\u5728\u5F00\u53E3\u8BF4\u8BDD\u4E86\uFF0C\u542C\u5F97\u5230\u5417\uFF1F"
+    values:
+    - OK, I'm talking now, can you hear me?
+  - <Key>k__BackingField: "\u5982\u679C\u542C\u4E0D\u5230\uFF0C\u8BF7\u6234\u4E0A\u8033\u673A\u6216\u6253\u5F00\u626C\u58F0\u5668"
+    values:
+    - If you can't hear me, put on headphones or turn on the speaker
+  - <Key>k__BackingField: "\u597D\uFF0C\u8BED\u97F3\u6D4B\u8BD5\u5C31\u5230\u8FD9\u91CC\u4E86"
+    values:
+    - OK, that's it for the voice test
+  - <Key>k__BackingField: "<color=orange>\u8FD9\u4E00\u53E5</color><color=red>\u662F\u4E2D\u95F4\u5FEB</color><color=orange>\u4E24\u5934\u6162</color>"
+    values:
+    - <color=orange>This sentence is fast </color><color=red>in the middle and </color><color=orange>slow
+      at both ends</color>
+  - <Key>k__BackingField: "\u4F60\u5DF2\u7ECF\u8FDB\u5165\u4E86\u5B50\u5BF9\u8BDD"
+    values:
+    - You have entered the sub-dialogue
+  - <Key>k__BackingField: "\u8FD9\u4E00\u53E5\u672C\u6765\u662F\u6CA1\u6709\u9009\u9879\u7684\uFF0C\u663E\u793A\u7684\u662F\u5176\u5B83\u5BF9\u8BDD\u7ED3\u70B9\u7684\u9009\u9879"
+    values:
+    - This sentence originally has no options, and it shows the options of other-dialogue
+      node
+  - <Key>k__BackingField: "\u6211\u662F{[NPC]}\uFF0C\u8FD9\u91CC\u53EF\u4EE5\u6D4B\u8BD5\u6761\u4EF6"
+    values:
+    - I am {[NPC]}, the conditions can be tested here
+  - <Key>k__BackingField: "\u6211\u662F{[PLAYER]}"
+    values:
+    - I am {[PLAYER]}
+  - <Key>k__BackingField: "\u54E6\uFF0C\u4F60\u597D\u5440\u3002\u4F60\u6709\u4EC0\u4E48\u4E8B\u561B\uFF1F"
+    values:
+    - Oh hello. What's the matter with you?
+  - <Key>k__BackingField: "\u597D\u7684\uFF0C\u8BF4\u5B8C\u8FD9\u53E5\u8BDD\uFF0C\u4E0B\u6B21\u5C31\u6CA1\u6709\u521A\u624D\u90A3\u4E2A\u9009\u9879\u4E86"
+    values:
+    - Okay, after saying this sentence, next time there will be no the enter option
+  - <Key>k__BackingField: "\u6211\u60F3\u8BD5\u4E00\u4E0B\u5206\u652F\u3002\u731C\u4E00\u4E0B\u6211\u771F\u6B63\u7684\u6027\u522B\u5427"
+    values:
+    - I want to test the branch. Now guess my real gender
+  - <Key>k__BackingField: "\u6211\u60F3\u8BD5\u4E00\u4E0B\u5B8C\u6210\u524D\u663E\u793A\u662F\u4EC0\u4E48\u6548\u679C"
+    values:
+    - I want to test what is the effect of display before done node
+  - <Key>k__BackingField: "\u4F60\u80AF\u5B9A\u662F\u7537\u751F\u5566"
+    values:
+    - You must be a boy
+  - <Key>k__BackingField: "\u4E0D\u4F1A\u5427\uFF0C\u96BE\u9053\u4F60\u8DDF\u6211\u4E00\u6837\u662F\u5973\u751F\uFF1F"
+    values:
+    - No way, are you a girl like me?
+  - <Key>k__BackingField: "\u7684\u786E\uFF0C\u663E\u800C\u6613\u89C1"
+    values:
+    - Indeed, it is obvious
+  - <Key>k__BackingField: "\u597D\u5427\uFF0C\u6211\u644A\u724C\u4E86"
+    values:
+    - Well, I lay my cards on the table
+  - <Key>k__BackingField: "\u771F\u7684\u5417\uFF1F\u90A3\u723D\u6B7B\u4E86"
+    values:
+    - Really? That's cool
+  - <Key>k__BackingField: "\u62ED\u76EE\u4EE5\u5F85\u5427"
+    values:
+    - Just wait and see
+  - <Key>k__BackingField: "\u6211\u7684\u7B49\u7EA7\u8FD8\u4E0D\u5927\u4E8E10\u7EA7"
+    values:
+    - My level is not higher than level 10
+  - <Key>k__BackingField: "\u6211\u7684\u7B49\u7EA7\u5DF2\u7ECF\u5927\u4E8E10\u7EA7\u4E86"
+    values:
+    - My level is already higher than level 10
+  - <Key>k__BackingField: "\u6211\u7B49\u7EA7\u5C0F\u4E8E10\uFF0C\u6240\u4EE5\u6CA1\u88AB\u62E6\u622A"
+    values:
+    - My level is less than 10, so there's no block
+  - <Key>k__BackingField: "\u4F60\u7684\u7B49\u7EA7\u8981\u5C0F\u4E8E10\u7EA7\u624D\u80FD\u7EE7\u7EED\u5BF9\u8BDD"
+    values:
+    - Your level must be less than 10 to continue
+  - <Key>k__BackingField: "\u597D\u7684\uFF0C\u5B8C\u6210\u6240\u6709\u5206\u652F\u540E\uFF0C\u4E0B\u6B21\u5C31\u6CA1\u6709\u521A\u624D\u90A3\u4E2A\u9009\u9879\u4E86"
+    values:
+    - Okay, after saying all branch, next time there will be no the enter option
+  - <Key>k__BackingField: "\u597D\uFF0C\u7EE7\u7EED\u5BF9\u8BDD"
+    values:
+    - Okay, let's continue
+  - <Key>k__BackingField: "\u4F60\u5931\u53BB\u4E86\u4E00\u4E2AID\u4E3AITEM01\u7684\u9053\u5177"
+    values:
+    - You lost an item with ID ITEM01
+  - <Key>k__BackingField: "\u7B97\u4E86\uFF0C\u8FD8\u7ED9\u4F60\u4E86"
+    values:
+    - Forget it, I'll give it back to you
+  - <Key>k__BackingField: "\u4F60\u6709"
+    values:
+    - Yes, you have
+  - <Key>k__BackingField: "\u4F60\u6CA1\u6709"
+    values:
+    - No, you haven't
+  - <Key>k__BackingField: "\u6211\u662F\u5C0F\u9EC4\uFF0C\u8FD9\u91CC\u53EF\u4EE5\u6D4B\u8BD5\u786E\u8BA4\u5BF9\u8BDD"
+    values:
+    - I am Yellow, here you can test confirm to dialogue
+  - <Key>k__BackingField: "\u63A5\u4E0B\u6765\u5C06\u6253\u5F00\u4E00\u4E2A\u5BF9\u8BDD\u6846\uFF0C\u70B9\u51FB\u786E\u8BA4\u4EE5\u7EE7\u7EED\u5BF9\u8BDD"
+    values:
+    - Next, a dialog box will open, click Confirm to continue dialogue
+  - <Key>k__BackingField: "\u63A5\u4E0B\u6765\u5C06\u6253\u5F00\u4E00\u4E2A\u5BF9\u8BDD\u6846\uFF0C\u70B9\u51FB\u786E\u8BA4\u6216\u53D6\u6D88\u6765\u5F00\u59CB\u4E0D\u540C\u7684\u5206\u652F"
+    values:
+    - Next, a dialog box will open, click Confirm or Cancel to start different branches
+  - <Key>k__BackingField: "\u4F60\u70B9\u51FB\u4E86\u786E\u8BA4"
+    values:
+    - You have clicked the Confirm
+  - <Key>k__BackingField: "\u4F60\u70B9\u51FB\u4E86\u53D6\u6D88"
+    values:
+    - You have clicked the Cancel
+  - <Key>k__BackingField: "\u5982\u679C\u4F60\u7684\u7B49\u7EA7\u5927\u4E8E10\u7EA7\uFF0C\u90A3\u4E48\u4E0B\u4E00\u53E5\u6211\u7684\u5934\u50CF\u5C06\u4F1A\u66F4\u6362"
+    values:
+    - If your level is higher than 10, than my portrait in next sentence will change
+  - <Key>k__BackingField: "\u8FD9\u5C31\u662F\u6211\u8981\u8BF4\u7684\u7B2C\u4E8C\u53E5"
+    values:
+    - This is the second sentence I would say
+  - <Key>k__BackingField: "\u795E\u79D8\u4EBA"
+    values:
+    - Mystic Man
+  _name: English DIalogue

@@ -1,0 +1,55 @@
+[1.2.2]
+1、补充了对话窗口缺失的打开方法，现在可以传入对话以打开对话窗口；
+2、补充了对话编辑器中对话列表缺失的重命名功能；
+3、修正了Localization资源的创建菜单的路径；
+4、删除对话窗口预制件中的一些多余组件；
+5、在文档中补充了“快速开始”教程，帮助大家更快地入门本插件。
+
+[1.2.1]
+1、修复了未启用肖像功能时，DialogueHandler类的报错；
+2、DialogueHandler类的脚本文件从“Zetan Studio/ZT Dialogue/Scripts/DialogueSystem/UI”目录移动到了“Zetan Studio/ZT Dialogue/Scripts/DialogueSystem/Core”，在覆盖更新之前，请注意删除原目录下的“DialogueHandler.cs”文件；
+3、更新中文版使用手册。
+以上，不便之处，还请谅解！
+
+[1.2.0]
+1、为了方便大家成套切换UI主题，现在WindowPrefabs类的资源文件不再是单例资源，所以要手动设置它的单例实例。可参阅示例类“GameEntrySettings”看如何实现。
+2、交互对象列表中，交互按钮前面的图标现在是等比例缩放，而不是等边长拉伸。
+3、现在可以选择让对话窗口的肖像按固定的尺寸等比例缩放，而不是大小自适应。默认是大小自适应。
+4、补充了对话编辑器缺失的搜索结果。
+
+[1.1.0]
+1、为了方便后续插件的开发，我们重构了文件树，比如此插件的根目录被移动到“Zetan Studio/”文件夹中，一些脚本被移动到“Zetan Studio/Common/”文件夹中，等等。所以请删除此插件的旧版本然后再导入新版本，以避免造成不必要的异常，不过不用删除所已存在的相关资源文件。
+2、现在LocalizationItem类的Language属性被更名为“Translation”。这是我重命名Translation类时的失误，因为它之前叫做“Language”。如果已经有了Localization资源文件，可在菜单“Tools/Zetan Studio/本地化文件修复工具 (Localization Assets Fixing Tool)”中找到序列化修复工具来修复它以防止丢失已设置的内容。
+3、现在Localization类的资源文件不再是单例资源，所以要手动设置它的单例实例。可参阅示例类“GameEntrySettings”看如何实现。
+以上，不便之处，还请谅解！
+
+[1.0.0]
+首次发布。
+
+[1.2.2]
+1. Added missing opening method for dialogue window, now you can pass in dialogue to open the dialogue window;
+2. Added the missing rename function for the dialogue list in the dialogue editor;
+3. Fixed the path of the creation menu for "Localization" assets;
+4. Remove some redundant components from the dialogue window prefabs;
+5. Added the 'Quick Start' tutorial in the document to help you get started with this plugin faster.
+
+[1.2.1]
+1. Fix some errors in type "DialogueHandler" when disable portrait function;
+2. The script file of type "DialogueHandler" is moved from “Zetan Studio/ZT Dialogue/Scripts/DialogueSystem/UI” folder into “Zetan Studio/ZT Dialogue/Scripts/DialogueSystem/Core” folder, please be careful to delete the "DialogueHandler.cs" file in the original folder before you performing overwriting updates;
+3. Update Chinese version user manual.
+We apologize for any inconvenience caused!
+
+[1.2.0]
+1. To facilitate the switching of UI themes, now the asset file of class "WindowPrefabs" is not a singleton asset, so you need to set the singleton instance of it manually. See the sample class "GameEntrySettings" for how to do that.
+2. In interaction list, now the icon in front of interaction button is scaled proportionally rather than equilateral stretching.
+3. Now you are able to make the portraits of dialogue window scale proportionally in fixed size rather than self-adaptation. It's adaptive by defualt.
+4. Added missing search results in the dialogue editor.
+
+[1.1.0]
+1. To facilitate the development of subsequent packages, we reconsitution the files tree, such as we move the root directory of this plugin into "Zetan Studio/" folder, and some scripts are moved into "Zetan Studio/Common/" folder, etc, so please delete the old version of this plugin then remport new version to avoid exceptions, but you don't need to delete existing related assets.
+2. Now the property "Language" of class "LocalizationItem" is renamed to "Translation". It is my mistake when renaming the class "Translation", as it's called "Language" before. If you already have a "Localization" asset, you can find the serialization fixing tool in menu "Tools/Zetan Studio/本地化文件修复工具 (Localization Assets Fixing Tool)" to fix it and avoid missing contents already set.
+3. Now the asset file of class "Localization" is not a singleton asset, so you need to set the singleton instance of it manually. See the sample class "GameEntrySettings" for how to do that.
+We apologize for any inconvenience caused!
+
+[1.0.0]
+First release.

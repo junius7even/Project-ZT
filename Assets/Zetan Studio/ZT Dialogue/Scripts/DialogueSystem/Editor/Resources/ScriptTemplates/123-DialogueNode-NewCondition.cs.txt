@@ -1,0 +1,19 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using ZetanStudio;
+using ZetanStudio.DialogueSystem;
+
+[Name("我的条件结点"), Description("此处是结点悬浮描述")]
+public class #SCRIPTNAME# : ConditionNode
+{
+    [field: SerializeField, Label("条件")]
+    public bool Condition { get; private set; }
+
+    public override bool IsValid => true;
+
+    protected override bool CheckCondition(DialogueData entryData)
+    {
+        return Condition;
+    }
+}

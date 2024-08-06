@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73402b0326e54ac4e8faf201b5be2958, type: 3}
+  m_Name: Option Translation
+  m_EditorClassIdentifier: 
+  items:
+  - <Key>k__BackingField: "\u4E0B\u4E00\u53E5\u540E\u8FD4\u56DE"
+    values:
+    - Return after next sentence
+  - <Key>k__BackingField: "\u70B9\u51FB\u9009\u9879\u8FD4\u56DE"
+    values:
+    - Return by clicking option
+  - <Key>k__BackingField: "\u4E0D\u8BD5\u4E86"
+    values:
+    - Goodbye
+  - <Key>k__BackingField: "\u56DE\u5230\u9996\u9875"
+    values:
+    - Return to home sentence
+  - <Key>k__BackingField: "\u56DE\u5230\u4E0A\u4E00\u53E5"
+    values:
+    - Return to previous sentence
+  - <Key>k__BackingField: "\u8BD5\u4E00\u4E0B\u9009\u9879\u4FEE\u9970"
+    values:
+    - Test option decoration
+  - <Key>k__BackingField: "\u8BD5\u4E00\u4E0B\u5916\u7F6E\u9009\u9879"
+    values:
+    - Test external options
+  - <Key>k__BackingField: "\u8BD5\u4E00\u4E0B\u5B50\u5BF9\u8BDD\u7684\u9009\u9879"
+    values:
+    - Test options of sub-dialogue
+  - <Key>k__BackingField: "\u968F\u673A\u989C\u8272"
+    values:
+    - Random Color
+  - <Key>k__BackingField: "\u56FA\u5B9A\u7EA2\u8272"
+    values:
+    - Fixed Red
+  - <Key>k__BackingField: "\u7C97\u4F53"
+    values:
+    - Bold
+  - <Key>k__BackingField: "\u659C\u4F53"
+    values:
+    - Italic
+  - <Key>k__BackingField: "\u9009\u9879\u987A\u5E8F\u968F\u673A\u4E00\u6B21"
+    values:
+    - Mess up options only once
+  - <Key>k__BackingField: "\u9009\u9879\u987A\u5E8F\u4E00\u76F4\u968F\u673A"
+    values:
+    - Mess up options always
+  - <Key>k__BackingField: "\u5B50\u5BF9\u8BDD\u9009\u9879\u4E00"
+    values:
+    - Option 1 of sub-dialogue
+  - <Key>k__BackingField: "\u5B50\u5BF9\u8BDD\u9009\u9879\u4E8C"
+    values:
+    - Option 2 of sub-dialogue
+  - <Key>k__BackingField: "\u6765\u53E5\u6253\u5B57\u6162\u7684"
+    values:
+    - Test typing animation
+  - <Key>k__BackingField: "\u6765\u4E00\u6BB5\u6709\u8BED\u97F3\u7684"
+    values:
+    - Test voice
+  - <Key>k__BackingField: "\u7B49\u7EA7\u4E0D\u5927\u4E8E10\u7EA7\u663E\u793A"
+    values:
+    - "Display when level \u2264 10"
+  - <Key>k__BackingField: "\u5927\u4E8E10\u7EA7\u624D\u80FD\u70B9\u51FB"
+    values:
+    - Can be clicked when level > 10
+  - <Key>k__BackingField: "\u8BD5\u4E00\u4E0B\u5B8C\u6210\u524D\u663E\u793A"
+    values:
+    - Test display before done
+  - <Key>k__BackingField: "\u8BD5\u4E00\u4E0B\u5206\u652F"
+    values:
+    - Test branch
+  - <Key>k__BackingField: "\u8BD5\u4E00\u4E0B\u62E6\u622A\u4E0B\u4E00\u53E5"
+    values:
+    - Test blocking next sentence
+  - <Key>k__BackingField: "\u5206\u652F\u4E00"
+    values:
+    - Branch 1
+  - <Key>k__BackingField: "\u5206\u652F\u4E8C"
+    values:
+    - Branch 2
+  - <Key>k__BackingField: "\u7EBF\u6027\u5BF9\u8BDD"
+    values:
+    - Linear
+  - <Key>k__BackingField: "\u5206\u652F\u5BF9\u8BDD"
+    values:
+    - Branched
+  - <Key>k__BackingField: "\u8FD9\u539F\u6765\u662F\u7B2C\u4E00\u9879"
+    values:
+    - This would have been the option 1
+  - <Key>k__BackingField: "\u8FD9\u539F\u6765\u662F\u7B2C\u4E8C\u9879"
+    values:
+    - This would have been the option 2
+  - <Key>k__BackingField: "\u8FD9\u539F\u6765\u662F\u7B2C\u4E09\u9879"
+    values:
+    - This would have been the option 3
+  - <Key>k__BackingField: "\u8FD9\u539F\u6765\u662F\u7B2C\u56DB\u9879"
+    values:
+    - This would have been the option 4
+  - <Key>k__BackingField: "\u8BD5\u4E00\u4E0B\u786E\u8BA4\u7EE7\u7EED"
+    values:
+    - Test confirm to continue
+  - <Key>k__BackingField: "\u6253\u5F00\u8BBE\u7F6E\u7A97\u53E3"
+    values:
+    - Open settings window
+  - <Key>k__BackingField: "\u8BD5\u4E00\u4E0B\u63D0\u4EA4\u4E00\u4E2AITEM01"
+    values:
+    - Test submit one ITEM01
+  - <Key>k__BackingField: "\u731C\u4E00\u4E0B\u6211\u6709\u6CA1\u6709ITEM01"
+    values:
+    - Guess if I have ITEM01
+  - <Key>k__BackingField: "\u8BD5\u4E00\u4E0B\u7EE7\u7EED\u5BF9\u8BDD"
+    values:
+    - Test confirm to continue
+  - <Key>k__BackingField: "\u8BD5\u4E00\u4E0B\u4E0D\u540C\u5206\u652F"
+    values:
+    - Test confirm to bifurcate
+  - <Key>k__BackingField: "\u5927\u4E8E10\u7EA7\u65F6\u66FF\u6362\u8096\u50CF"
+    values:
+    - Replace portrait when level > 10
+  _name: English Dialogue Option

@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455d18b99c9aab3428198fe3412f0db8, type: 3}
+  m_Name: Blue
+  m_EditorClassIdentifier: 
+  nodes:
+  - rid: 8693329506914533380
+  - rid: 8693329506914533396
+  - rid: 8693329506914533401
+  _exit:
+    <ID>k__BackingField: CON-68ed2b0ca06f47349693b821dee72e5e
+    options: []
+    exitHere: 0
+    _position: {x: 856.5, y: -98}
+  _name: 
+  _description: 
+  _groups: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 8693329506914533380
+      type: {class: EntryNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: DLG-5d84aa54e00f4eeaad2a6548075964f7
+        options:
+        - <Title>k__BackingField: 
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: 8693329506914533396
+        exitHere: 0
+        _position: {x: -194, y: -32}
+        <Interlocutor>k__BackingField: '{[NPC]}'
+        <Content>k__BackingField: "\u6211\u4EECcapsule\u4EBA\u5DF2\u7ECF\u7B49\u4F60\u5F88\u4E45\u4E86\u3002"
+        <SpeakInterval>k__BackingField:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <Portrait>k__BackingField: {fileID: -9095717837082945937, guid: b799d591170c96b48adc7d2acf6cd484,
+          type: 3}
+        <KeepPortraitSide>k__BackingField: 0
+        <Voice>k__BackingField: {fileID: 0}
+        <VoiceOffset>k__BackingField: 0
+        events: []
+        <Interruptable>k__BackingField: 1
+    - rid: 8693329506914533396
+      type: {class: EventNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: CON-a0bc4c61a9534a91847404a0ec9c73ee
+        options:
+        - <Title>k__BackingField: 
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: 8693329506914533401
+        exitHere: 0
+        _position: {x: 133, y: 47.5}
+        events:
+        - rid: 8693329506914533398
+    - rid: 8693329506914533398
+      type: {class: GetItemEvent, ns: ZetanStudio.Examples, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: EVT-0c877c25e4c14313b99173598a378ae7
+        <OneTime>k__BackingField: 1
+        <Item>k__BackingField:
+          ID: blue's approval
+          amount: 1
+    - rid: 8693329506914533401
+      type: {class: SentenceNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: CON-620d3a80eb0448d59bb9704218d63d4b
+        options:
+        - <Title>k__BackingField: Continue
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: -2
+        exitHere: 1
+        _position: {x: 487.5, y: -123.5}
+        <Interlocutor>k__BackingField: '{[NPC]}'
+        <Content>k__BackingField: "\u4FDD\u91CD\u4F19\u8BA1\uFF0C\u8DDF\u5176\u4ED6\u4EBA\u4EE3\u6211\u95EE\u58F0\u597D\u3002\u8981\u8BF4\u4E3A\u4EC0\u4E48\u7684\u8BDD\uFF0C\u6211\u4EECcapsule\u4EBA\u662F\u6CA1\u6709\u773C\u775B\u7684"
+        <SpeakInterval>k__BackingField:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.511953
+            value: 0.50071275
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <Portrait>k__BackingField: {fileID: -9095717837082945937, guid: b799d591170c96b48adc7d2acf6cd484,
+          type: 3}
+        <KeepPortraitSide>k__BackingField: 0
+        <Voice>k__BackingField: {fileID: 0}
+        <VoiceOffset>k__BackingField: 0
+        events: []

@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using ZetanStudio;
+using ZetanStudio.DialogueSystem;
+
+[Name("我的后缀结点"), Description("此处是结点悬浮描述")]
+public class #SCRIPTNAME# : SuffixNode
+{
+    public override bool IsValid => true;
+
+#if UNITY_EDITOR
+    public override bool CanConnectFrom(DialogueNode from, DialogueOption option) => true;
+#endif
+}

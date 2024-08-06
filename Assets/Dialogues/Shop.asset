@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455d18b99c9aab3428198fe3412f0db8, type: 3}
+  m_Name: Shop
+  m_EditorClassIdentifier: 
+  nodes:
+  - rid: 8693329506914533426
+  - rid: 8693329506914533427
+  - rid: 8693329506914533428
+  - rid: 8693329506914533460
+  _exit:
+    <ID>k__BackingField: CON-d9701cd604bc482eb85c81d3c25ccc62
+    options: []
+    exitHere: 0
+    _position: {x: 235.73682, y: 160.23906}
+  _name: 
+  _description: 
+  _groups: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 8693329506914533426
+      type: {class: EntryNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: DLG-8788e12c31fd430383d09cc3c75356f9
+        options:
+        - <Title>k__BackingField: 
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: 8693329506914533427
+        exitHere: 0
+        _position: {x: -190.4702, y: -116.99998}
+        <Interlocutor>k__BackingField: '{[NPC]}'
+        <Content>k__BackingField: "\u4F60\u597D\u554A\u4F19\u8BA1\uFF0C\u6211\u5927\u62C7\u6307\u4EBA\u7B49\u4F60\u7B49\u5F88\u4E45\u4E86\uFF01\u8BF4\u5B9E\u8BDD\uFF0C\u6211\u7AD9\u5728\u8FD9\u91CC\u592A\u4E45\uFF0C\u641E\u5F97\u6211\u60F3\u6D3B\u52A8\u6D3B\u52A8\u4E86\u3002"
+        <SpeakInterval>k__BackingField:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <Portrait>k__BackingField: {fileID: 21300000, guid: 48f950d9407774894bb120f6e2372044,
+          type: 3}
+        <KeepPortraitSide>k__BackingField: 0
+        <Voice>k__BackingField: {fileID: 0}
+        <VoiceOffset>k__BackingField: 0
+        events: []
+        <Interruptable>k__BackingField: 1
+    - rid: 8693329506914533427
+      type: {class: EventNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: CON-a00cfe048dab4ea98907afc6a99a9a54
+        options:
+        - <Title>k__BackingField: 
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: 8693329506914533428
+        exitHere: 0
+        _position: {x: -190.5, y: 37}
+        events:
+        - rid: 8693329506914533429
+    - rid: 8693329506914533428
+      type: {class: SentenceNode, ns: ZetanStudio.DialogueSystem, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: CON-8f03d7c0b71647879108e66147bdd617
+        options:
+        - <Title>k__BackingField: Continue
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: 8693329506914533460
+        exitHere: 0
+        _position: {x: -190.5, y: 329.64}
+        <Interlocutor>k__BackingField: '{[NPC]}'
+        <Content>k__BackingField: "\u5BF9\u4E8E\u4F60\u7684\u5230\u6765\u6211\u53EA\u60F3\u7ED9\u4F60\u7AD6\u8D77\u5927\u62C7\u6307\uFF01\uFF01"
+        <SpeakInterval>k__BackingField:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0.02
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <Portrait>k__BackingField: {fileID: 21300000, guid: 5051f79cbbff24e9ba949b23e9ee81dd,
+          type: 3}
+        <KeepPortraitSide>k__BackingField: 0
+        <Voice>k__BackingField: {fileID: 0}
+        <VoiceOffset>k__BackingField: 0
+        events: []
+    - rid: 8693329506914533429
+      type: {class: AnimationEvent, ns: J7.Extension, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: EVT-4d25746a8b9b47369ac612b0380b5fc1
+        <OneTime>k__BackingField: 1
+        <Anim>k__BackingField:
+          objectName: Mystery Man
+          animTrigger: Spin
+    - rid: 8693329506914533460
+      type: {class: ChangeDialogue, ns: J7.Extension, asm: Assembly-CSharp}
+      data:
+        <ID>k__BackingField: CON-222dfd4a4cf3409baf4cb1c20eccaed3
+        options:
+        - <Title>k__BackingField: Continue
+          <IsMain>k__BackingField: 1
+          <Next>k__BackingField:
+            rid: -2
+        exitHere: 1
+        _position: {x: -148.5, y: 565}
+        <Dialogue>k__BackingField: {fileID: 11400000, guid: cc764be8259bf46f9be69a9843a8a5b6,
+          type: 2}

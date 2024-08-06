@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36350b7fbe7837346b03d4686ea8ee90, type: 3}
+  m_Name: editor misc settings
+  m_EditorClassIdentifier: 
+  translation: {fileID: 11400000, guid: b96b6f5111096de43a08d7b2fa2b5f4b, type: 2}
+  labelTranslation: {fileID: 11400000, guid: c7bd0b7ef5ff3614d8e3274b7c2a49bf, type: 2}

@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using UnityEngine;
+using ZetanStudio;
+using ZetanStudio.DialogueSystem;
+
+[Name("我的外置选项结点"), Description("此处是结点悬浮描述")]
+public class #SCRIPTNAME# : ExternalOptionsNode
+{
+    public override bool IsValid => true;
+
+    public override ReadOnlyCollection<DialogueOption> GetOptions(DialogueData entryData, DialogueNode owner)
+    {
+        return Options;
+    }
+}

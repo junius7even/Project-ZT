@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73402b0326e54ac4e8faf201b5be2958, type: 3}
+  m_Name: Message Translation
+  m_EditorClassIdentifier: 
+  items:
+  - <Key>k__BackingField: "\u6761\u4EF6\u672A\u6EE1\u8DB3"
+    values:
+    - Conditions not met
+  - <Key>k__BackingField: "\u5B58\u6863\u6210\u529F\uFF01"
+    values:
+    - Save completely!
+  - <Key>k__BackingField: "\u8BFB\u6863\u6210\u529F\uFF01"
+    values:
+    - Load completely!
+  - <Key>k__BackingField: "\u83B7\u5F97\u4E86 {0} \u4E2A {1} \u9053\u5177"
+    values:
+    - Get {0} of item {1}
+  - <Key>k__BackingField: "\u5931\u53BB\u4E86 {0} \u4E2A {1} \u9053\u5177"
+    values:
+    - Lose {0} of item {1}
+  - <Key>k__BackingField: "\u672A\u6301\u6709\u9053\u5177ITEM01"
+    values:
+    - You have no ITEM01
+  - <Key>k__BackingField: "\u7B49\u7EA7\u5DF2\u5927\u4E8E10\u7EA7"
+    values:
+    - Your level is higher than 10
+  - <Key>k__BackingField: "\u7B49\u7EA7\u672A\u5927\u4E8E10\u7EA7"
+    values:
+    - Your level is lower than 10
+  - <Key>k__BackingField: "\u7B49\u7EA7\u53D8\u4E3A {0}"
+    values:
+    - Level is set to {0}
+  - <Key>k__BackingField: "\u6027\u522B\u53D8\u4E3A {0}"
+    values:
+    - Gender is set to {0}
+  - <Key>k__BackingField: "\u6307\u4EE4\u4E0D\u5B58\u5728\u6216\u683C\u5F0F\u4E0D\u6B63\u786E"
+    values:
+    - Command or format is invalid
+  - <Key>k__BackingField: "\u70B9\u51FB\u4E86\u968F\u673A\u989C\u8272\u9009\u9879"
+    values:
+    - Click random color option
+  - <Key>k__BackingField: "\u70B9\u51FB\u4E86\u7EA2\u8272\u9009\u9879"
+    values:
+    - Click red color option
+  - <Key>k__BackingField: "\u70B9\u51FB\u4E86\u7C97\u4F53\u9009\u9879"
+    values:
+    - Click bold option
+  - <Key>k__BackingField: "\u70B9\u51FB\u4E86\u659C\u4F53\u9009\u9879"
+    values:
+    - Click italic option
+  - <Key>k__BackingField: "\u5C1D\u8BD5\u4E0E\u8349 {0} \u4EA4\u4E92"
+    values:
+    - Try to interact with grass {0}
+  - <Key>k__BackingField: "\u5C1D\u8BD5\u4E0E\u95E8 {0} \u4EA4\u4E92"
+    values:
+    - Try to interact with door {0}
+  _name: English Message

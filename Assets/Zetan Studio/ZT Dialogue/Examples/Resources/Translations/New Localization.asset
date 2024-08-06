@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92507e5f55e8e974c945d81acf7ebe7d, type: 3}
+  m_Name: New Localization
+  m_EditorClassIdentifier: 
+  languageNames:
+  - "\u7B80\u4F53\u4E2D\u6587"
+  - English
+  items:
+  - note: "\u5BF9\u8BDD\u7A97\u53E3"
+    <Translation>k__BackingField: {fileID: 11400000, guid: de610c37750b5c34db40ff807a81475b, type: 2}
+    selectors:
+    - Dialogue
+  - note: "\u5BF9\u8BDD\u4EBA"
+    <Translation>k__BackingField: {fileID: 11400000, guid: ff35eeef1b6730645a70e82b0747e065, type: 2}
+    selectors:
+    - Dialogue
+  - note: "\u5BF9\u8BDD\u5185\u5BB9"
+    <Translation>k__BackingField: {fileID: 11400000, guid: fe1b55a3cdab21341b4adb3bf42abf6f, type: 2}
+    selectors:
+    - Dialogue
+  - note: "\u9009\u9879\u6807\u9898"
+    <Translation>k__BackingField: {fileID: 11400000, guid: 36dd542816f6eda4992caa983fe40220, type: 2}
+    selectors:
+    - Dialogue
+  - note: "\u6D88\u606F"
+    <Translation>k__BackingField: {fileID: 11400000, guid: 60f2fa8def9c0d14da5664678c1ae0cb, type: 2}
+    selectors:
+    - Message
+  - note: "\u901A\u7528"
+    <Translation>k__BackingField: {fileID: 11400000, guid: 20edb7f7c06287e4ba9f6258fa98fffc, type: 2}
+    selectors:
+    - Common
+    - Dialogue
+    - DialogueWindow
+    - Keyword
+    - Interaction
